@@ -18,7 +18,6 @@ namespace EnumExample
             for (int Inc = 0; Inc < 28; Inc++)
             {
                 Console.WriteLine(DayRollOver(EnumDay.Thursday, Inc));
-                if (Inc == 7) Console.WriteLine("\n");
             }
 
         }
